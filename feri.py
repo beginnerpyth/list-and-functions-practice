@@ -1,0 +1,20 @@
+listo=["ma","ga","sa","ha"]
+pasto = [1,2,3,43,2554545,5435]
+nikal = len(listo)
+#print(nikal)
+listo.extend(pasto)
+print(listo)
+listo.append("gaga")
+print(listo)
+print(listo[0])
+listo.pop()
+print(listo)
+listo.remove(5435)
+print(listo)
+#print(listo)
+pasto.sort()
+print(pasto)
+print(listo.index("ma"))
+print(listo.insert(0,"jaja"))
+listo[1]="haha"
+print(listo)
